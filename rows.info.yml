@@ -1,0 +1,5 @@
+name: Modul Impressió Files
+type: module
+description: Modul que li passarem un paràmetre per formulari (número int) i ens imprimirà en la següent pàgina una taula amb aquest nombre de files
+core_version_requirement: ^9
+package: Moduls de Jordi Gonzalez

@@ -1,0 +1,17 @@
+#Path del formulari
+rows.form:
+  path: '/rows-form'
+  defaults:
+    _title: 'Introdueix el número de files que vols imprimir'
+    _form: \Drupal\rows\Form\RowsForm
+  requirements:
+    _access: 'TRUE'
+
+#Path del controller amb la funició pública rows
+rows.rows:
+  path: '/rows/{numero}'
+  defaults:
+    _controller: \Drupal\rows\Controller\RowsController::rows
+  requirements:
+    _access: 'TRUE'
+    user: \d+
